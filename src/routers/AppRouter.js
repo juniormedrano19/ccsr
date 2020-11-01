@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { LoginScreen } from '../components/login/LoginScreen';
 import { DashboardRoutes } from './DashboardRoutes';
 import {
-    BrowserRouter as Router,
+    HashRouter  as Router, //BrowserRouter
     Switch,
     Route,
   } from "react-router-dom";
